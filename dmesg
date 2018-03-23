@@ -1,191 +1,3 @@
-[    2.554490] kobject: 'kmemleak_object' (000000001d1aad79): kobject_uevent_env
-[    2.554490] kobject: 'kmemleak_object' (000000001d1aad79): fill_kobj_path: path = '/kernel/slab/kmemleak_object'
-[    2.554490] kobject: 'trace_event_file' (0000000058e937f1): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.554490] kobject: 'trace_event_file' (0000000058e937f1): kobject_uevent_env
-[    2.554490] kobject: 'trace_event_file' (0000000058e937f1): fill_kobj_path: path = '/kernel/slab/trace_event_file'
-[    2.555207] kobject: 'ftrace_event_field' (00000000c174e1d1): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.556207] kobject: 'ftrace_event_field' (00000000c174e1d1): kobject_uevent_env
-[    2.556207] kobject: 'ftrace_event_field' (00000000c174e1d1): fill_kobj_path: path = '/kernel/slab/ftrace_event_field'
-[    2.556230] kobject: 'pool_workqueue' (00000000d13e5655): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.557230] kobject: 'pool_workqueue' (00000000d13e5655): kobject_uevent_env
-[    2.557230] kobject: 'pool_workqueue' (00000000d13e5655): fill_kobj_path: path = '/kernel/slab/pool_workqueue'
-[    2.558167] kobject: 'radix_tree_node' (00000000152992fd): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.558167] kobject: 'radix_tree_node' (00000000152992fd): kobject_uevent_env
-[    2.558167] kobject: 'radix_tree_node' (00000000152992fd): fill_kobj_path: path = '/kernel/slab/radix_tree_node'
-[    2.569044] kobject: 'task_group' (00000000b24c0c3e): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.570044] kobject: 'task_group' (00000000b24c0c3e): kobject_uevent_env
-[    2.570044] kobject: 'task_group' (00000000b24c0c3e): fill_kobj_path: path = '/kernel/slab/task_group'
-[    2.570044] kobject: 'dma-kmalloc-8192' (00000000e8428f61): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.571539] kobject: 'dma-kmalloc-8192' (00000000e8428f61): kobject_uevent_env
-[    2.571539] kobject: 'dma-kmalloc-8192' (00000000e8428f61): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-8192'
-[    2.571539] kobject: 'dma-kmalloc-4096' (00000000b6a97516): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.572223] kobject: 'dma-kmalloc-4096' (00000000b6a97516): kobject_uevent_env
-[    2.572223] kobject: 'dma-kmalloc-4096' (00000000b6a97516): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-4096'
-[    2.572235] kobject: 'dma-kmalloc-2048' (00000000de5505dc): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.573235] kobject: 'dma-kmalloc-2048' (00000000de5505dc): kobject_uevent_env
-[    2.573235] kobject: 'dma-kmalloc-2048' (00000000de5505dc): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-2048'
-[    2.573235] kobject: 'dma-kmalloc-1024' (0000000046fe3c9e): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.573235] kobject: 'dma-kmalloc-1024' (0000000046fe3c9e): kobject_uevent_env
-[    2.575137] kobject: 'dma-kmalloc-1024' (0000000046fe3c9e): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-1024'
-[    2.575137] kobject: 'dma-kmalloc-512' (00000000752c5748): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.575137] kobject: 'dma-kmalloc-512' (00000000752c5748): kobject_uevent_env
-[    2.575137] kobject: 'dma-kmalloc-512' (00000000752c5748): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-512'
-[    2.575226] kobject: 'dma-kmalloc-256' (00000000d5e88b66): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.590093] kobject: 'dma-kmalloc-256' (00000000d5e88b66): kobject_uevent_env
-[    2.590093] kobject: 'dma-kmalloc-256' (00000000d5e88b66): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-256'
-[    2.590093] kobject: 'dma-kmalloc-128' (00000000d0f93fc7): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.601389] kobject: 'dma-kmalloc-128' (00000000d0f93fc7): kobject_uevent_env
-[    2.601389] kobject: 'dma-kmalloc-128' (00000000d0f93fc7): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-128'
-[    2.601603] kobject: 'dma-kmalloc-64' (0000000046cd36a3): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.604372] kobject: 'dma-kmalloc-64' (0000000046cd36a3): kobject_uevent_env
-[    2.604372] kobject: 'dma-kmalloc-64' (0000000046cd36a3): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-64'
-[    2.604372] kobject: 'dma-kmalloc-32' (00000000adcdb4ca): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.605352] kobject: 'dma-kmalloc-32' (00000000adcdb4ca): kobject_uevent_env
-[    2.605352] kobject: 'dma-kmalloc-32' (00000000adcdb4ca): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-32'
-[    2.605352] kobject: 'dma-kmalloc-16' (00000000514b79dd): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.605446] kobject: 'dma-kmalloc-16' (00000000514b79dd): kobject_uevent_env
-[    2.605446] kobject: 'dma-kmalloc-16' (00000000514b79dd): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-16'
-[    2.606518] kobject: 'dma-kmalloc-8' (0000000054b9347c): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.619231] kobject: 'dma-kmalloc-8' (0000000054b9347c): kobject_uevent_env
-[    2.619231] kobject: 'dma-kmalloc-8' (0000000054b9347c): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-8'
-[    2.619231] kobject: 'dma-kmalloc-192' (0000000002f11b1a): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.620314] kobject: 'dma-kmalloc-192' (0000000002f11b1a): kobject_uevent_env
-[    2.620314] kobject: 'dma-kmalloc-192' (0000000002f11b1a): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-192'
-[    2.620458] kobject: 'dma-kmalloc-96' (000000002579465f): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.622657] kobject: 'dma-kmalloc-96' (000000002579465f): kobject_uevent_env
-[    2.622657] kobject: 'dma-kmalloc-96' (000000002579465f): fill_kobj_path: path = '/kernel/slab/dma-kmalloc-96'
-[    2.622657] kobject: 'kmalloc-8192' (000000004a8c7567): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.624191] kobject: 'kmalloc-8192' (000000004a8c7567): kobject_uevent_env
-[    2.624191] kobject: 'kmalloc-8192' (000000004a8c7567): fill_kobj_path: path = '/kernel/slab/kmalloc-8192'
-[    2.624191] kobject: 'kmalloc-4096' (00000000389a3735): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.625254] kobject: 'kmalloc-4096' (00000000389a3735): kobject_uevent_env
-[    2.625254] kobject: 'kmalloc-4096' (00000000389a3735): fill_kobj_path: path = '/kernel/slab/kmalloc-4096'
-[    2.625548] kobject: 'kmalloc-2048' (0000000052087592): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.626332] kobject: 'kmalloc-2048' (0000000052087592): kobject_uevent_env
-[    2.626332] kobject: 'kmalloc-2048' (0000000052087592): fill_kobj_path: path = '/kernel/slab/kmalloc-2048'
-[    2.626356] kobject: 'kmalloc-1024' (000000002c3e99bd): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.628219] kobject: 'kmalloc-1024' (000000002c3e99bd): kobject_uevent_env
-[    2.628219] kobject: 'kmalloc-1024' (000000002c3e99bd): fill_kobj_path: path = '/kernel/slab/kmalloc-1024'
-[    2.628219] kobject: 'kmalloc-512' (000000001356f832): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.628224] kobject: 'kmalloc-512' (000000001356f832): kobject_uevent_env
-[    2.628224] kobject: 'kmalloc-512' (000000001356f832): fill_kobj_path: path = '/kernel/slab/kmalloc-512'
-[    2.628248] kobject: 'kmalloc-256' (000000007668d9d8): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.629230] kobject: 'kmalloc-256' (000000007668d9d8): kobject_uevent_env
-[    2.629230] kobject: 'kmalloc-256' (000000007668d9d8): fill_kobj_path: path = '/kernel/slab/kmalloc-256'
-[    2.629255] kobject: 'kmalloc-192' (000000003d01a360): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.630226] kobject: 'kmalloc-192' (000000003d01a360): kobject_uevent_env
-[    2.630226] kobject: 'kmalloc-192' (000000003d01a360): fill_kobj_path: path = '/kernel/slab/kmalloc-192'
-[    2.630251] kobject: 'kmalloc-128' (0000000064aff0c7): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.631236] kobject: 'kmalloc-128' (0000000064aff0c7): kobject_uevent_env
-[    2.631236] kobject: 'kmalloc-128' (0000000064aff0c7): fill_kobj_path: path = '/kernel/slab/kmalloc-128'
-[    2.631261] kobject: 'kmalloc-96' (00000000135d24a7): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.632237] kobject: 'kmalloc-96' (00000000135d24a7): kobject_uevent_env
-[    2.632237] kobject: 'kmalloc-96' (00000000135d24a7): fill_kobj_path: path = '/kernel/slab/kmalloc-96'
-[    2.632261] kobject: 'kmalloc-64' (00000000ab4c8762): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.633224] kobject: 'kmalloc-64' (00000000ab4c8762): kobject_uevent_env
-[    2.633224] kobject: 'kmalloc-64' (00000000ab4c8762): fill_kobj_path: path = '/kernel/slab/kmalloc-64'
-[    2.633246] kobject: 'kmalloc-32' (0000000080605d42): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.634239] kobject: 'kmalloc-32' (0000000080605d42): kobject_uevent_env
-[    2.634239] kobject: 'kmalloc-32' (0000000080605d42): fill_kobj_path: path = '/kernel/slab/kmalloc-32'
-[    2.634284] kobject: 'kmalloc-16' (00000000cd26e41e): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.635244] kobject: 'kmalloc-16' (00000000cd26e41e): kobject_uevent_env
-[    2.635244] kobject: 'kmalloc-16' (00000000cd26e41e): fill_kobj_path: path = '/kernel/slab/kmalloc-16'
-[    2.635289] kobject: 'kmalloc-8' (0000000042622c49): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.636244] kobject: 'kmalloc-8' (0000000042622c49): kobject_uevent_env
-[    2.637225] kobject: 'kmalloc-8' (0000000042622c49): fill_kobj_path: path = '/kernel/slab/kmalloc-8'
-[    2.637225] kobject: 'kmem_cache_node' (00000000ef616d8a): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.637225] kobject: 'kmem_cache_node' (00000000ef616d8a): kobject_uevent_env
-[    2.637225] kobject: 'kmem_cache_node' (00000000ef616d8a): fill_kobj_path: path = '/kernel/slab/kmem_cache_node'
-[    2.652233] kobject: 'kmem_cache' (0000000070cbae3d): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.652233] kobject: 'kmem_cache' (0000000070cbae3d): kobject_uevent_env
-[    2.652233] kobject: 'kmem_cache' (0000000070cbae3d): fill_kobj_path: path = '/kernel/slab/kmem_cache'
-[    2.652307] kobject: 'fasync_cache' (00000000028a06a0): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.654302] kobject: 'fasync_cache' (00000000028a06a0): kobject_uevent_env
-[    2.654302] kobject: 'fasync_cache' (00000000028a06a0): fill_kobj_path: path = '/kernel/slab/fasync_cache'
-[    2.654324] kobject: 'bio-1' (0000000079a6271d): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.655305] kobject: 'bio-1' (0000000079a6271d): kobject_uevent_env
-[    2.655305] kobject: 'bio-1' (0000000079a6271d): fill_kobj_path: path = '/kernel/slab/bio-1'
-[    2.656308] kobject: 'dio' (00000000a8979080): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.656308] kobject: 'dio' (00000000a8979080): kobject_uevent_env
-[    2.656308] kobject: 'dio' (00000000a8979080): fill_kobj_path: path = '/kernel/slab/dio'
-[    2.656345] kobject: 'dnotify_struct' (00000000d5319606): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.657317] kobject: 'dnotify_struct' (00000000d5319606): kobject_uevent_env
-[    2.657317] kobject: 'dnotify_struct' (00000000d5319606): fill_kobj_path: path = '/kernel/slab/dnotify_struct'
-[    2.657342] kobject: 'dnotify_mark' (000000000bfde5e9): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.681100] kobject: 'dnotify_mark' (000000000bfde5e9): kobject_uevent_env
-[    2.681100] kobject: 'dnotify_mark' (000000000bfde5e9): fill_kobj_path: path = '/kernel/slab/dnotify_mark'
-[    2.681376] kobject: 'aio_kiocb' (000000007d85a856): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.682376] kobject: 'aio_kiocb' (000000007d85a856): kobject_uevent_env
-[    2.682400] kobject: 'aio_kiocb' (000000007d85a856): fill_kobj_path: path = '/kernel/slab/aio_kiocb'
-[    2.683400] kobject: 'kioctx' (000000002100b65a): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.683400] kobject: 'kioctx' (000000002100b65a): kobject_uevent_env
-[    2.683400] kobject: 'kioctx' (000000002100b65a): fill_kobj_path: path = '/kernel/slab/kioctx'
-[    2.684399] kobject: 'mbcache' (00000000f748e35e): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.685401] kobject: 'mbcache' (00000000f748e35e): kobject_uevent_env
-[    2.685401] kobject: 'mbcache' (00000000f748e35e): fill_kobj_path: path = '/kernel/slab/mbcache'
-[    2.686211] kobject: 'ext4_extent_status' (00000000bbf775b8): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.686375] kobject: 'ext4_extent_status' (00000000bbf775b8): kobject_uevent_env
-[    2.686375] kobject: 'ext4_extent_status' (00000000bbf775b8): fill_kobj_path: path = '/kernel/slab/ext4_extent_status'
-[    2.686375] kobject: 'ext4_io_end' (00000000310116c9): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.687418] kobject: 'ext4_io_end' (00000000310116c9): kobject_uevent_env
-[    2.688553] kobject: 'ext4_io_end' (00000000310116c9): fill_kobj_path: path = '/kernel/slab/ext4_io_end'
-[    2.688553] kobject: 'ext4_system_zone' (00000000ee65b1f1): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.712128] kobject: 'ext4_system_zone' (00000000ee65b1f1): kobject_uevent_env
-[    2.712128] kobject: 'ext4_system_zone' (00000000ee65b1f1): fill_kobj_path: path = '/kernel/slab/ext4_system_zone'
-[    2.712162] kobject: 'ext4' (000000002c706179): kobject_add_internal: parent: 'fs', set: '<NULL>'
-[    2.712162] kobject: 'ext4' (000000002c706179): kobject_uevent_env
-[    2.712162] kobject: 'ext4' (000000002c706179): kobject_uevent_env: attempted to send uevent without kset!
-[    2.712162] kobject: 'features' (0000000016423f95): kobject_add_internal: parent: 'ext4', set: 'ext4'
-[    2.712162] kobject: 'ext4_prealloc_space' (000000001fe21fd9): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.714470] kobject: 'ext4_prealloc_space' (000000001fe21fd9): kobject_uevent_env
-[    2.714470] kobject: 'ext4_prealloc_space' (000000001fe21fd9): fill_kobj_path: path = '/kernel/slab/ext4_prealloc_space'
-[    2.715290] kobject: 'ext4_allocation_context' (00000000c3d92b79): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.715290] kobject: 'ext4_allocation_context' (00000000c3d92b79): kobject_uevent_env
-[    2.715290] kobject: 'ext4_allocation_context' (00000000c3d92b79): fill_kobj_path: path = '/kernel/slab/ext4_allocation_context'
-[    2.715422] kobject: 'ext4_free_data' (000000000fa4f150): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.716472] kobject: 'ext4_free_data' (000000000fa4f150): kobject_uevent_env
-[    2.716472] kobject: 'ext4_free_data' (000000000fa4f150): fill_kobj_path: path = '/kernel/slab/ext4_free_data'
-[    2.716472] kobject: 'ext4_inode_cache' (0000000017226265): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.717488] kobject: 'ext4_inode_cache' (0000000017226265): kobject_uevent_env
-[    2.717488] kobject: 'ext4_inode_cache' (0000000017226265): fill_kobj_path: path = '/kernel/slab/ext4_inode_cache'
-[    2.717488] kobject: 'jbd2_revoke_record_s' (00000000db491ad8): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.718508] kobject: 'jbd2_revoke_record_s' (00000000db491ad8): kobject_uevent_env
-[    2.718508] kobject: 'jbd2_revoke_record_s' (00000000db491ad8): fill_kobj_path: path = '/kernel/slab/jbd2_revoke_record_s'
-[    2.720191] kobject: 'jbd2_revoke_table_s' (00000000fb19ac7d): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.720191] kobject: 'jbd2_revoke_table_s' (00000000fb19ac7d): kobject_uevent_env
-[    2.720191] kobject: 'jbd2_revoke_table_s' (00000000fb19ac7d): fill_kobj_path: path = '/kernel/slab/jbd2_revoke_table_s'
-[    2.721310] kobject: 'jbd2_journal_head' (0000000077246d00): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.721310] kobject: 'jbd2_journal_head' (0000000077246d00): kobject_uevent_env
-[    2.721310] kobject: 'jbd2_journal_head' (0000000077246d00): fill_kobj_path: path = '/kernel/slab/jbd2_journal_head'
-[    2.721872] kobject: 'jbd2_journal_handle' (0000000026a261f1): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.722511] kobject: 'jbd2_journal_handle' (0000000026a261f1): kobject_uevent_env
-[    2.722511] kobject: 'jbd2_journal_handle' (0000000026a261f1): fill_kobj_path: path = '/kernel/slab/jbd2_journal_handle'
-[    2.723498] kobject: 'jbd2_inode' (000000004f020422): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.725274] kobject: 'jbd2_inode' (000000004f020422): kobject_uevent_env
-[    2.725274] kobject: 'jbd2_inode' (000000004f020422): fill_kobj_path: path = '/kernel/slab/jbd2_inode'
-[    2.725274] kobject: 'jbd2_transaction_s' (00000000e67e959b): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.725692] kobject: 'jbd2_transaction_s' (00000000e67e959b): kobject_uevent_env
-[    2.725692] kobject: 'jbd2_transaction_s' (00000000e67e959b): fill_kobj_path: path = '/kernel/slab/jbd2_transaction_s'
-[    2.727498] kobject: 'fat_cache' (00000000fe0f62e4): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.727515] kobject: 'fat_cache' (00000000fe0f62e4): kobject_uevent_env
-[    2.727515] kobject: 'fat_cache' (00000000fe0f62e4): fill_kobj_path: path = '/kernel/slab/fat_cache'
-[    2.727515] kobject: 'fat_inode_cache' (000000002591464f): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.728530] kobject: 'fat_inode_cache' (000000002591464f): kobject_uevent_env
-[    2.728530] kobject: 'fat_inode_cache' (000000002591464f): fill_kobj_path: path = '/kernel/slab/fat_inode_cache'
-[    2.728530] kobject: 'isofs_inode_cache' (00000000d4fb2f82): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.730529] kobject: 'isofs_inode_cache' (00000000d4fb2f82): kobject_uevent_env
-[    2.730529] kobject: 'isofs_inode_cache' (00000000d4fb2f82): fill_kobj_path: path = '/kernel/slab/isofs_inode_cache'
-[    2.734761] kobject: 'nfs_page' (00000000652de3bb): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.735555] kobject: 'nfs_page' (00000000652de3bb): kobject_uevent_env
-[    2.735555] kobject: 'nfs_page' (00000000652de3bb): fill_kobj_path: path = '/kernel/slab/nfs_page'
-[    2.735555] kobject: 'nfs_inode_cache' (00000000da91bf95): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.735558] kobject: 'nfs_inode_cache' (00000000da91bf95): kobject_uevent_env
-[    2.735558] kobject: 'nfs_inode_cache' (00000000da91bf95): fill_kobj_path: path = '/kernel/slab/nfs_inode_cache'
-[    2.736368] kobject: 'nfs_read_data' (0000000070176617): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.738133] kobject: 'nfs_read_data' (0000000070176617): kobject_uevent_env
-[    2.738133] kobject: 'nfs_read_data' (0000000070176617): fill_kobj_path: path = '/kernel/slab/nfs_read_data'
-[    2.741838] kobject: 'nfs_write_data' (00000000b9d1f364): kobject_add_internal: parent: 'slab', set: 'slab'
-[    2.741838] kobject: 'nfs_write_data' (00000000b9d1f364): kobject_uevent_env
 [    2.741838] kobject: 'nfs_write_data' (00000000b9d1f364): fill_kobj_path: path = '/kernel/slab/nfs_write_data'
 [    2.743502] kobject: 'nfs_commit_data' (000000007750a217): kobject_add_internal: parent: 'slab', set: 'slab'
 [    2.743575] kobject: 'nfs_commit_data' (000000007750a217): kobject_uevent_env
@@ -3046,3 +2858,208 @@
 [  189.809297] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
 [  189.810860] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
 [  190.464257] mv (2641) used greatest stack depth: 18184 bytes left
+[  193.828443] bootlogs (2740) used greatest stack depth: 17256 bytes left
+[  195.685963] audit: type=1400 audit(1521781226.684:5): avc:  denied  { syslog } for  pid=2779 comm="rsyslogd" capability=34  scontext=system_u:system_r:kernel_t:s0 tcontext=system_u:system_r:kernel_t:s0 tclass=capability2 permissive=1
+[  199.042105] kobject: 'vcs2' (00000000dda7de40): kobject_add_internal: parent: 'vc', set: 'devices'
+[  199.054525] kobject: 'vcs2' (00000000dda7de40): kobject_uevent_env
+[  199.054525] kobject: 'vcs2' (00000000dda7de40): fill_kobj_path: path = '/devices/virtual/vc/vcs2'
+[  199.054525] kobject: 'vcsa2' (0000000030514dde): kobject_add_internal: parent: 'vc', set: 'devices'
+[  199.063960] kobject: 'vcsa2' (0000000030514dde): kobject_uevent_env
+[  199.063960] kobject: 'vcsa2' (0000000030514dde): fill_kobj_path: path = '/devices/virtual/vc/vcsa2'
+[  199.093422] kobject: 'vcs3' (000000002297a303): kobject_add_internal: parent: 'vc', set: 'devices'
+[  199.095227] kobject: 'vcs3' (000000002297a303): kobject_uevent_env
+[  199.095227] kobject: 'vcs3' (000000002297a303): fill_kobj_path: path = '/devices/virtual/vc/vcs3'
+[  199.095367] kobject: 'vcsa3' (00000000c51b5119): kobject_add_internal: parent: 'vc', set: 'devices'
+[  199.099258] kobject: 'vcsa3' (00000000c51b5119): kobject_uevent_env
+[  199.099258] kobject: 'vcsa3' (00000000c51b5119): fill_kobj_path: path = '/devices/virtual/vc/vcsa3'
+[  199.099792] kobject: 'vcs5' (00000000e3ba900b): kobject_add_internal: parent: 'vc', set: 'devices'
+[  199.133747] kobject: 'vcs5' (00000000e3ba900b): kobject_uevent_env
+[  199.225882] kobject: 'vcs5' (00000000e3ba900b): fill_kobj_path: path = '/devices/virtual/vc/vcs5'
+[  199.541494] kobject: 'vcsa5' (00000000c90a3347): kobject_add_internal: parent: 'vc', set: 'devices'
+[  200.944990] kobject: 'vcsa5' (00000000c90a3347): kobject_uevent_env
+[  201.061551] kobject: 'vcsa5' (00000000c90a3347): fill_kobj_path: path = '/devices/virtual/vc/vcsa5'
+[  202.865169] kobject: 'vcs4' (000000005dc27270): kobject_add_internal: parent: 'vc', set: 'devices'
+[  204.089915] kobject: 'vcs4' (000000005dc27270): kobject_uevent_env
+[  204.205405] kobject: 'vcs4' (000000005dc27270): fill_kobj_path: path = '/devices/virtual/vc/vcs4'
+[  204.521088] kobject: 'vcsa4' (00000000f67ed937): kobject_add_internal: parent: 'vc', set: 'devices'
+[  204.665625] kobject: 'vcsa4' (00000000f67ed937): kobject_uevent_env
+[  204.665625] kobject: 'vcsa4' (00000000f67ed937): fill_kobj_path: path = '/devices/virtual/vc/vcsa4'
+[  204.798325] kobject: 'vcs6' (00000000aa499ead): kobject_add_internal: parent: 'vc', set: 'devices'
+[  204.824738] kobject: 'vcs6' (00000000aa499ead): kobject_uevent_env
+[  204.824738] kobject: 'vcs6' (00000000aa499ead): fill_kobj_path: path = '/devices/virtual/vc/vcs6'
+[  204.825565] kobject: 'vcsa6' (000000005a528b23): kobject_add_internal: parent: 'vc', set: 'devices'
+[  204.849959] kobject: 'vcsa6' (000000005a528b23): kobject_uevent_env
+[  204.849959] kobject: 'vcsa6' (000000005a528b23): fill_kobj_path: path = '/devices/virtual/vc/vcsa6'
+[  207.009062] audit: type=1400 audit(1521781238.008:6): avc:  denied  { map } for  pid=2914 comm="bash" path="/bin/bash" dev="sda" ino=14971 scontext=unconfined_u:system_r:insmod_t:s0-s0:c0.c1023 tcontext=system_u:object_r:file_t:s0 tclass=file permissive=1
+[  218.267920] audit: type=1400 audit(1521781249.260:7): avc:  denied  { map } for  pid=2920 comm="insmod" path="/root/test.ko" dev="sda" ino=16152 scontext=unconfined_u:system_r:insmod_t:s0-s0:c0.c1023 tcontext=unconfined_u:object_r:user_home_t:s0 tclass=file permissive=1
+[  218.270267] test: loading out-of-tree module taints kernel.
+[  218.287379] audit: type=1400 audit(1521781249.264:8): avc:  denied  { module_load } for  pid=2920 comm="insmod" scontext=unconfined_u:system_r:insmod_t:s0-s0:c0.c1023 tcontext=unconfined_u:system_r:insmod_t:s0-s0:c0.c1023 tclass=system permissive=1
+[  218.380497] kobject: 'test' (00000000d2e5ab93): kobject_add_internal: parent: 'module', set: 'module'
+[  218.380497] kobject: 'holders' (00000000275c4ab1): kobject_add_internal: parent: 'test', set: '<NULL>'
+[  218.382546] kobject: 'notes' (0000000016c8e2aa): kobject_add_internal: parent: 'test', set: '<NULL>'
+[  218.383466] kobject: 'test' (00000000d2e5ab93): kobject_uevent_env
+[  218.383466] kobject: 'test' (00000000d2e5ab93): fill_kobj_path: path = '/module/test'
+[  218.383466] kobject: 'topsec_test' (0000000066f5f145): kobject_add_internal: parent: 'class', set: 'class'
+[  218.383466] kobject: 'topsec_test' (0000000066f5f145): kobject_uevent_env
+[  218.383466] kobject: 'topsec_test' (0000000066f5f145): fill_kobj_path: path = '/class/topsec_test'
+[  218.383466] kobject: 'topsec_test' (0000000073233c10): kobject_add_internal: parent: 'virtual', set: '(null)'
+[  218.383466] kobject: 'topsec_test0' (0000000017dfa36c): kobject_add_internal: parent: 'topsec_test', set: 'devices'
+[  218.385032] kobject: 'topsec_test0' (0000000017dfa36c): kobject_uevent_env
+[  218.385032] kobject: 'topsec_test0' (0000000017dfa36c): fill_kobj_path: path = '/devices/virtual/topsec_test/topsec_test0'
+[  218.385032] [*]register success!
+[  260.032279] [*]topsec_dev open
+[  260.033615] int3: 0000 [#1] SMP KASAN PTI
+[  260.034615] Modules linked in: test(O)
+[  260.034615] CPU: 6 PID: 2924 Comm: cat Tainted: G           O     4.16.0-rc4 #2
+[  260.034615] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.10.2-1ubuntu1 04/01/2014
+[  260.034615] RIP: 0010:test_dev_open+0x12/0x20 [test]
+[  260.034615] RSP: 0018:ffff8800617ff670 EFLAGS: 00000282
+[  260.034615] RAX: 0000000000000012 RBX: 1ffff1000c2ffed1 RCX: ffffffff812385da
+[  260.034615] RDX: 0000000000000000 RSI: 0000000000000000 RDI: ffffed000c2ffea8
+[  260.034615] RBP: ffff880066270008 R08: 0000000000000000 R09: 0000000000000000
+[  260.034615] R10: 0000000000000003 R11: 0000000000000000 R12: ffff88006a7b4da0
+[  260.034615] R13: ffffffffa0000000 R14: ffff880061284e00 R15: ffff880061284e28
+[  260.034615] FS:  00007fa1dbe7f700(0000) GS:ffff88006d380000(0000) knlGS:0000000000000000
+[  260.034615] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  260.034615] CR2: 00007fa1db9acca0 CR3: 000000006b8fa000 CR4: 00000000000006e0
+[  260.034615] Call Trace:
+[  260.034615]  chrdev_open+0x61f/0x6a0
+[  260.034615]  ? cdev_put+0x50/0x50
+[  260.034615]  ? __fsnotify_parent+0x2a1/0x2f0
+[  260.034615]  ? selinux_file_open+0x490/0x520
+[  260.034615]  ? __fsnotify_update_child_dentry_flags+0x450/0x450
+[  260.034615]  ? __mod_tree_insert+0x3bc/0x410
+[  260.034615]  ? selinux_mount+0x440/0x440
+[  260.113338]  ? errseq_sample+0xf4/0x130
+[  260.113338]  do_dentry_open+0x76b/0xbe0
+[  260.113338]  ? cdev_put+0x50/0x50
+[  260.113338]  ? legitimize_path.isra.28+0x155/0x160
+[  260.113338]  vfs_open+0x1aa/0x1d0
+[  260.113338]  path_openat+0x34c1/0x40b0
+[  260.113338]  ? do_dup2+0x4b0/0x4b0
+[  260.113338]  ? entry_SYSCALL_64_after_hwframe+0x3d/0xa2
+[  260.113338]  ? vfs_link+0xae0/0xae0
+[  260.113338]  ? kernel_text_address+0x106/0x120
+[  260.113338]  ? __kernel_text_address+0x9/0x30
+[  260.113338]  ? unwind_get_return_address+0x66/0x90
+[  260.113338]  ? __save_stack_trace+0x6e/0xf0
+[  260.113338]  ? save_stack+0x98/0xb0
+[  260.113338]  ? kasan_kmalloc+0xa9/0xc0
+[  260.113338]  ? kmem_cache_alloc+0x10d/0x1a0
+[  260.113338]  ? getname_flags+0x90/0x4c0
+[  260.113338]  ? do_sys_open+0x42c/0x5e0
+[  260.113338]  ? __alloc_fd+0x546/0x600
+[  260.113338]  ? exit_files+0x190/0x190
+[  260.113338]  ? print_trailer+0x110/0x180
+[  260.113338]  do_filp_open+0x2ab/0x360
+[  260.113338]  ? may_open_dev+0xc0/0xc0
+[  260.113338]  ? get_unused_fd_flags+0x134/0x170
+[  260.113338]  ? do_sys_open+0x46f/0x5e0
+[  260.113338]  do_sys_open+0x46f/0x5e0
+[  260.113338]  ? filp_open+0x60/0x60
+[  260.113338]  ? do_syscall_64+0x8e/0x560
+[  260.113338]  ? do_sys_open+0x5e0/0x5e0
+[  260.113338]  do_syscall_64+0x2dc/0x560
+[  260.113338]  ? syscall_return_slowpath+0x2a0/0x2a0
+[  260.113338]  ? do_page_fault+0x2f8/0x340
+[  260.113338]  ? __do_page_fault+0xa10/0xa10
+[  260.113338]  ? prepare_exit_to_usermode+0x1f0/0x1f0
+[  260.113338]  ? prepare_exit_to_usermode+0x186/0x1f0
+[  260.113338]  ? perf_trace_sys_enter+0xb20/0xb20
+[  260.113338]  ? __put_user_4+0x1c/0x30
+[  260.113338]  entry_SYSCALL_64_after_hwframe+0x3d/0xa2
+[  260.113338] RIP: 0033:0x7fa1db9ad120
+[  260.113338] RSP: 002b:00007ffcdd9eb7f8 EFLAGS: 00000246 ORIG_RAX: 0000000000000002
+[  260.113338] RAX: ffffffffffffffda RBX: 00007ffcdd9eba58 RCX: 00007fa1db9ad120
+[  260.113338] RDX: 00007ffcdd9eba60 RSI: 0000000000000000 RDI: 00007ffcdd9ecf17
+[  260.113338] RBP: 0000000000001000 R08: 0000000000000000 R09: 0000000000000000
+[  260.113338] R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000402718
+[  260.113338] R13: 00007ffcdd9eba50 R14: 0000000000000000 R15: 0000000000008000
+[  260.113338] Code: <31> c0 c3 90 66 2e 0f 1f 84 00 00 00 00 00 e8 bb c2 36 e1 48 c7 c7 
+[  260.113338] RIP: test_dev_open+0x12/0x20 [test] RSP: ffff8800617ff670
+[  260.128122] ---[ end trace 6b38e2af4f13506b ]---
+[  260.128122] ==================================================================
+[  260.128122] BUG: KASAN: stack-out-of-bounds in tlb_gather_mmu+0x36/0x340
+[  260.128122] Write of size 8 at addr ffff8800617ff778 by task cat/2924
+[  260.128122] 
+[  260.128122] CPU: 6 PID: 2924 Comm: cat Tainted: G      D    O     4.16.0-rc4 #2
+[  260.128122] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.10.2-1ubuntu1 04/01/2014
+[  260.128122] Call Trace:
+[  260.128122]  dump_stack+0xb8/0x14b
+[  260.128122]  ? _atomic_dec_and_lock+0x1f5/0x1f5
+[  260.128122]  ? test_dev_open+0x11/0x20 [test]
+[  260.128122]  ? chrdev_open+0x61f/0x6a0
+[  260.128122]  print_address_description+0x83/0x250
+[  260.128122]  kasan_report+0x228/0x380
+[  260.128122]  ? tlb_gather_mmu+0x36/0x340
+[  260.128122]  tlb_gather_mmu+0x36/0x340
+[  260.128122]  free_ldt_pgtables+0x80/0x110
+[  260.128122]  ? map_ldt_struct+0x590/0x590
+[  260.128122]  ? exit_aio+0x39f/0x400
+[  260.128122]  ? do_dentry_open+0x76b/0xbe0
+[  260.128122]  ? ioctx_alloc+0x1ad0/0x1ad0
+[  260.128122]  ? legitimize_path.isra.28+0x155/0x160
+[  260.128122]  exit_mmap+0x1ae/0x430
+[  260.128122]  ? SyS_munmap+0x30/0x30
+[  260.128122]  ? path_openat+0x34c1/0x40b0
+[  260.128122]  ? hrtimer_active+0x2c2/0x320
+[  260.128122]  ? uprobe_clear_state+0x17a/0x1b0
+[  260.128122]  ? uprobe_munmap+0x360/0x360
+[  260.128122]  ? hrtimer_forward+0x290/0x290
+[  260.128122]  mmput+0xd7/0x470
+[  260.128122]  ? mmdrop_async_fn+0x20/0x20
+[  260.128122]  ? uprobe_free_utask+0x19/0x160
+[  260.128122]  ? rcu_note_context_switch+0x3c0/0x3c0
+[  260.128122]  ? mm_access+0x120/0x120
+[  260.128122]  ? hrtimer_try_to_cancel+0x2d1/0x380
+[  260.128122]  ? _cond_resched+0x52/0x60
+[  260.128122]  ? down_read+0x5f/0x120
+[  260.128122]  ? __down_killable+0x5d0/0x5d0
+[  260.128122]  ? kmem_cache_alloc+0x10d/0x1a0
+[  260.128122]  ? getname_flags+0x90/0x4c0
+[  260.128122]  do_exit+0xee0/0x1490
+[  260.128122]  ? __alloc_fd+0x546/0x600
+[  260.128122]  ? exit_notify+0x940/0x940
+[  260.128122]  ? exit_files+0x190/0x190
+[  260.128122]  ? print_trailer+0x110/0x180
+[  260.128122]  ? do_filp_open+0x2ab/0x360
+[  260.128122]  ? may_open_dev+0xc0/0xc0
+[  260.128122]  ? get_unused_fd_flags+0x134/0x170
+[  260.128122]  ? do_sys_open+0x46f/0x5e0
+[  260.128122]  ? do_sys_open+0x46f/0x5e0
+[  260.128122]  ? filp_open+0x60/0x60
+[  260.128122]  ? do_syscall_64+0x8e/0x560
+[  260.128122]  ? do_sys_open+0x5e0/0x5e0
+[  260.128122]  ? do_syscall_64+0x2dc/0x560
+[  260.128122]  ? syscall_return_slowpath+0x2a0/0x2a0
+[  260.128122]  ? do_page_fault+0x2f8/0x340
+[  260.128122]  ? __do_page_fault+0xa10/0xa10
+[  260.128122]  ? prepare_exit_to_usermode+0x1f0/0x1f0
+[  260.128122]  ? prepare_exit_to_usermode+0x186/0x1f0
+[  260.128122]  ? perf_trace_sys_enter+0xb20/0xb20
+[  260.128122]  ? __put_user_4+0x1c/0x30
+[  260.128122]  rewind_stack_do_exit+0x17/0x20
+[  260.128122] 
+[  260.128122] The buggy address belongs to the page:
+[  260.128122] page:ffffea000185ffc0 count:0 mapcount:0 mapping:0000000000000000 index:0x0
+[  260.128122] flags: 0x100000000000000()
+[  260.128122] raw: 0100000000000000 0000000000000000 0000000000000000 00000000ffffffff
+[  260.128122] raw: 0000000000000000 ffffea000185ffe0 0000000000000000 0000000000000000
+[  260.128122] page dumped because: kasan: bad access detected
+[  260.128122] 
+[  260.128122] Memory state around the buggy address:
+[  260.128122]  ffff8800617ff600: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[  260.128122]  ffff8800617ff680: 00 00 00 f1 f1 f8 f2 f2 f2 f2 f2 f2 f2 f8 f2 f2
+[  260.128122] >ffff8800617ff700: f2 f2 f2 f2 f2 f8 f2 f2 f2 f2 f2 f1 f1 f1 f1 f2
+[  260.128122]                                                                 ^
+[  260.128122]  ffff8800617ff780: f2 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[  260.128122]  ffff8800617ff800: f2 f2 f2 00 00 00 00 00 00 00 00 f1 f1 f1 f1 00
+[  260.128122] ==================================================================
+[  912.188308] audit: type=1400 audit(1521781943.185:9): avc:  denied  { map } for  pid=2935 comm="apt-get" path="/var/cache/apt/pkgcache.bin.Y8kdGM" dev="sda" ino=16156 scontext=unconfined_u:system_r:insmod_t:s0-s0:c0.c1023 tcontext=unconfined_u:object_r:file_t:s0 tclass=file permissive=1
+[  945.222334] audit: type=1400 audit(1521781976.221:10): avc:  denied  { map } for  pid=3284 comm="ldconfig" path="/usr/lib/x86_64-linux-gnu/libgpm.so.2" dev="sda" ino=16177 scontext=unconfined_u:system_r:insmod_t:s0-s0:c0.c1023 tcontext=system_u:object_r:lib_t:s0 tclass=file permissive=1
+[  960.726587] audit: type=1400 audit(1521781991.724:11): avc:  denied  { map } for  pid=3348 comm="vim" path="/usr/bin/vim.basic" dev="sda" ino=17760 scontext=unconfined_u:system_r:insmod_t:s0-s0:c0.c1023 tcontext=system_u:object_r:bin_t:s0 tclass=file permissive=1
+[ 1190.651107] audit: type=1400 audit(1521782221.647:12): avc:  denied  { map } for  pid=4574 comm="cron" path="/etc/ld.so.cache" dev="sda" ino=16166 scontext=system_u:system_r:kernel_t:s0 tcontext=unconfined_u:object_r:file_t:s0 tclass=file permissive=1
+[ 1190.748999] audit: type=1400 audit(1521782221.746:13): avc:  denied  { map } for  pid=4575 comm="sh" path="/bin/dash" dev="sda" ino=14969 scontext=system_u:system_r:insmod_t:s0-s0:c0.c1023 tcontext=system_u:object_r:file_t:s0 tclass=file permissive=1
+[ 1190.755129] audit: type=1400 audit(1521782221.748:14): avc:  denied  { map } for  pid=4575 comm="sh" path="/etc/ld.so.cache" dev="sda" ino=16166 scontext=system_u:system_r:insmod_t:s0-s0:c0.c1023 tcontext=unconfined_u:object_r:file_t:s0 tclass=file permissive=1
+[ 1351.207825] kmemleak: 1 new suspected memory leaks (see /sys/kernel/debug/kmemleak)
+[ 1610.816317] kworker/dying (49) used greatest stack depth: 14080 bytes left
